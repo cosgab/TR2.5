@@ -16,6 +16,8 @@
 <?php
   /*
     viene letto l'albero delle opzioni di menu
+    hdhhdg
+    
   */
   while( $uno = $menu->fetch() ){
     ?>
