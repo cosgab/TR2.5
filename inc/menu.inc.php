@@ -20,22 +20,23 @@
     
   */
   while( $uno = $menu->fetch() ){
-    ?>
+?>
   <div class="w3-dropdown-hover w3-hide-small">
   <!-- primo livello -->
     <button class="w3-button" title="Notifications"><?php echo htmlentities($uno['idmenu']);  ?> <i class="fa fa-caret-down"></i></button>
     <div class="w3-dropdown-content w3-card-4 w3-bar-block"> 
-    <?php
+<?php
          $funzione = Menu::getFunzioni( 'cosgab', $uno['idmenu'] );
          while( $due = $funzione->fetch() ){
-            ?><a href="<?php echo $due['funcomando']; ?>" class="w3-bar-item w3-button"><?php echo htmlentities($due['fundescr']); ?></a>
-        <?php
+?>
+            <a href="<?php echo $due['funcomando']; ?>" class="w3-bar-item w3-button"><?php echo htmlentities($due['fundescr']); ?></a>
+<?php
          }    
-        ?>
+?>
         </div>  </div> 
-      <?php
+<?php
     }
-    ?> 
+?> 
 
  
   
