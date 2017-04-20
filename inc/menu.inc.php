@@ -33,11 +33,15 @@
 <?php
          }    
 ?>
-        </div>  </div> 
+        </div> 
+         
+  </div>
+   
 <?php
     }
-?> 
 
+?> 
+<a href="logout.php" class="w3-bar-item w3-button w3-teal w3-right"><i class="fa fa-home w3-margin-right"></i>Logout</a>
  
   
 <!--

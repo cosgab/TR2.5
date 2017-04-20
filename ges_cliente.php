@@ -1,10 +1,12 @@
 <?php
     /*
-        @name: gas_cliente.php
+        @name: ges_cliente.php
         @ver: 1.0
         @date: 2017/04/15
         @descr: gestione della anagrafica del cliente
     */
+    // caricamento common objects
+    include 'inc/common.inc.php';
     // caricamento classi
     include 'inc/model.cliente.inc.php';
     

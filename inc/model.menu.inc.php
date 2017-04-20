@@ -5,6 +5,7 @@
         name: model.menu.inc.php
         class: Module
         use: the model to manage the menu of the application
+        
     */
     require_once  'connection.inc.php';
 
